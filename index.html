@@ -1,0 +1,32 @@
+<!-- weather api를 활용한 날씨 정보 웹 사이트  -->
+<!-- url = https://home.openweathermap.org/api_keys -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather and Map</title>
+    <!-- Leaflet CSS -->
+    <link rel="stylesheet" href="https://unpkg.com/leaflet/dist/leaflet.css" />
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class = weather-container>
+        <!-- 도시 입력 -->
+        <input type="text" id="city" placeholder="Enter city name(please english)" />
+        <button id="getWeather">Get Weather</button>
+
+        <!-- 날씨 정보 -->
+        <div id="weather"></div>
+
+        <!-- 지도 표시 공간 -->
+        <div id="map" style="height: 400px; width: 100%;"></div>
+
+        <!-- Leaflet JS -->
+        <script src="https://unpkg.com/leaflet/dist/leaflet.js"></script>
+
+        <script src="script.js"></script>
+    </div>
+</body>
+</html>
