@@ -52,3 +52,11 @@ button:hover {
     margin-top: 15px;
     font-size: 18px;
 }
+
+/*footer*/ 
+.footer-content{
+    margin: 0 auto;
+    font-size : 11px;
+    color :  #4d524d;
+}
+
